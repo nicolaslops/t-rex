@@ -1,68 +1,70 @@
 # T-REX
 
-## Sobre o Projeto
+## About the Project
 
-Este projeto consiste em uma versão interativa e personalizada do clássico jogo do dinossauro (T-Rex Game). A aplicação foi desenvolvida utilizando HTML, CSS e a biblioteca **p5.js** para criar uma experiência de jogo fluida diretamente no navegador, contando com animações, efeitos sonoros e mecânicas de colisão em tempo real.
+This project is an interactive and customized version of the classic T-Rex dinosaur game. The application was developed using HTML, CSS, and the **p5.js** library to create a smooth gaming experience directly in the browser, featuring animations, sound effects, and real-time collision mechanics.
 
-A interface renderiza o cenário onde o jogador deve desviar de obstáculos dinâmicos, utilizando as funções nativas do ecossistema p5.js para gerenciar a física do pulo, a geração de elementos na tela, a contagem de pontos e o estado de fim de jogo (Game Over).
-
----
-
-## Funcionalidades
-
-* Controle do personagem (T-Rex) com mecânica de pulo para desviar de obstáculos.
-* Geração dinâmica e aleatória de múltiplos tipos de obstáculos e elementos de cenário (nuvens e solo).
-* Sistema de colisão preciso entre o personagem e os obstáculos utilizando `p5.play`.
-* Efeitos sonoros integrados para ações específicas (pular, marcar pontuação/checkpoint e colidir) com `p5.sound`.
-* Tela de Game Over com opção de reinicialização (Restart) imediata do jogo.
-* Renderização otimizada de sprites e animações fluidas para simular o movimento de corrida infinita.
+The interface renders a game environment where the player must avoid dynamic obstacles, using native functions from the p5.js ecosystem to manage jump physics, element generation, score tracking, and the game-over state.
 
 ---
 
-## Tecnologias Utilizadas
+## Features
+
+* Character control (T-Rex) with a jumping mechanic to avoid obstacles.
+* Dynamic and randomized generation of multiple types of obstacles and environment elements, such as clouds and ground.
+* Precise collision detection between the character and obstacles using `p5.play`.
+* Integrated sound effects for specific actions, including jumping, reaching checkpoints, and collisions, using `p5.sound`.
+* Game Over screen with an immediate Restart option.
+* Optimized sprite rendering and smooth animations to simulate endless running gameplay.
+
+---
+
+## Technologies Used
 
 * **HTML5**
 * **CSS3**
-* **p5.js** (e extensões: p5.dom, p5.play, p5.sound)
+* **p5.js** (including the p5.dom, p5.play, and p5.sound extensions)
 
 ---
 
-## Objetivo
+## Objective
 
-O principal objetivo deste projeto é aplicar conceitos avançados de lógica de programação e desenvolvimento de jogos web utilizando a biblioteca p5.js, trabalhando com o ciclo de vida clássico de um jogo (`preload`, `setup` e `draw`), manipulação de vetores, gerenciamento de sprites e controle de elementos multimídia.
-
----
-
-## Aprendizados
-
-Durante o desenvolvimento deste projeto, foram aplicados conceitos como:
-
-* Utilização do ciclo de renderização contínuo (`draw`) da biblioteca p5.js.
-* Criação, manipulação e colisão de sprites utilizando a extensão `p5.play`.
-* Pré-carregamento assíncrono de assets (imagens e sons) com a função `preload` para evitar travamentos.
-* Gerenciamento e manipulação de múltiplos estados do jogo (Start, Playing, Game Over).
-* Controle de áudio digital reproduzido de forma dinâmica através da biblioteca `p5.sound`.
+The main objective of this project is to apply advanced programming logic and web game development concepts using the p5.js library. The project focuses on working with the classic game lifecycle (`preload`, `setup`, and `draw`), vector manipulation, sprite management, and multimedia control.
 
 ---
 
-## Como Executar
+## Learning Outcomes
 
-1. Clone este repositório:
+Throughout the development of this project, I applied concepts such as:
+
+* Using the continuous rendering cycle (`draw`) provided by the p5.js library.
+* Creating, manipulating, and detecting collisions between sprites using the `p5.play` extension.
+* Asynchronously preloading assets (images and sounds) with the `preload` function to prevent performance issues.
+* Managing multiple game states, including Start, Playing, and Game Over.
+* Dynamically controlling digital audio playback through the `p5.sound` library.
+
+---
+
+## How to Run
+
+1. Clone this repository:
+
 ```bash
-git clone [https://github.com/seu-usuario/T-REX.git](https://github.com/seu-usuario/T-REX.git)
+git clone https://github.com/your-username/T-REX.git
 ```
 
-2. Acesse a pasta do projeto:
+2. Navigate to the project folder:
 
 ```bash
 cd T-REX
 ```
 
-3. Abra o arquivo index.html em seu navegador de preferência para começar a jogar.
+3. Open the `index.html` file in your preferred web browser to start playing.
 
---- 
+---
 
-## Estrutura do Projeto
+## Project Structure
+
 ```text
 T-REX/
 │
@@ -102,10 +104,13 @@ T-REX/
 └── README.md
 ```
 
---- 
+---
 
-## Licença
+## License
 
-Este projeto foi desenvolvido exclusivamente para fins educacionais e de aprendizado.
+This project was developed exclusively for educational and learning purposes.
 
-Desenvolvido como prática de desenvolvimento web e lógica de jogos, recriando o clássico T-Rex Game com HTML, CSS e a biblioteca p5.js.
+Developed as a hands-on exercise in web development and game programming logic, recreating the classic T-Rex Game using HTML, CSS, and the p5.js library.
+
+```
+```
