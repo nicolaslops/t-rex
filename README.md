@@ -112,5 +112,5 @@ This project was developed exclusively for educational and learning purposes.
 
 Developed as a hands-on exercise in web development and game programming logic, recreating the classic T-Rex Game using HTML, CSS, and the p5.js library.
 
-```
-```
+
+
